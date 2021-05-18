@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ResizedEvent } from 'angular-resize-event';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-homepage-products',
@@ -8,10 +9,14 @@ import { ResizedEvent } from 'angular-resize-event';
 })
 export class HomepageProductsComponent implements OnInit {
 
-  constructor() { 
+  constructor(private router: Router) { 
   }
 
   ngOnInit(): void {}
+
+  navigate(){
+    this.router.navigate(['/shop'])
+  }
 
   public seeproduct: String = 'See Products';
   public numproduct: Number = 5;

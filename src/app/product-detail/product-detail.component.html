@@ -32,6 +32,6 @@
   <app-product-brief [dataApp]="numproduct" class ="product-brief"></app-product-brief>
 </div>
 <div class="moreProductsButton">
-	<app-button1 [dataApp]="moreProducts" onclick="location.href='/shop'" ></app-button1>
+	<app-button1 [dataApp]="moreProducts" (click)='navigate()' ></app-button1>
 </div>
 <app-footer></app-footer>

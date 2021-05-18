@@ -3,7 +3,7 @@
   	<div class ="bst_title"> Bộ sưu tập #1 - Khởi đầu</div>
   	<div class ="bst_content">Birkin, Lady Dior, Jackie nằm trong danh sách những thiết kế túi xách nổi tiếng nhất được đặt theo tên của những phụ nữ đã góp phần thay đổi diện mạo của toàn bộ ngành công nghiệp thời trang<br></div>
     <div class= "product_button_container">
-      <app-button1 [dataApp]="seeproduct" class= "product_button" onclick="location.href='/shop'" ></app-button1>
+      <app-button1 [dataApp]="seeproduct" class= "product_button" (click)='navigate()' ></app-button1>
     </div>
   </div>
   <div class="homepage_collection">

@@ -28,6 +28,10 @@ export class ProductDetailComponent implements OnInit {
     });
   }
 
+  navigate(){
+    this.router.navigate(['/shop'])
+  }
+
   title = 'shop-detail-page';
   public numproduct: Number = 5;
   public products_linename: String = 'Products';
