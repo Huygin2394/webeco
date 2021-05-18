@@ -1,0 +1,39 @@
+:host{
+	width: 70%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+}
+
+.product_brief_inside{
+	width: 190px;
+	margin : 5px;
+}
+
+.product_photo{
+	width: 190px;
+}
+
+.product_name{
+	font-family: "Montserrat-ExtraLight";
+	font_size: 20px;
+}
+
+.product_name a{
+	color: black;
+	text-decoration: none;
+}
+
+.price{
+	color: black;
+	font_size: 16px;
+	text-decoration-line: line-through;
+}
+
+.saled_price{
+	color:red;
+	font_size: 16px;	
+}

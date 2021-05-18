@@ -1,0 +1,37 @@
+<app-linename [dataApp]="products_linename"></app-linename>
+<div class="showProduct">
+	<div class="productPhoto">
+		
+	</div>
+	<div class="productInfo">
+		<div class = "productName">{{this.product_detail.name}}</div>
+		<div class = "productName">
+			<div>Bộ sưu tập:</div>
+			<div>{{this.product_detail.name}}</div>
+		</div>
+		<div class = "productPrice">
+			<div>Giá: </div>
+			<div>{{this.product_detail.price}} VNĐ</div>
+		</div>
+		<div class = "productSummary">
+			<div>Thông tin sản phẩm:</div>
+			<div>{{this.product_detail.description}}</div>
+		</div>
+		<div class = "productDetailInfo">
+			<div>Thông tin chi tiết:</div>
+			<div [innerHtml]=this.product_detail.detail></div>
+		</div>
+		<div>Cách thức mua hàng</div>
+		<div>Để mua hàng hãy chat với chúng tôi<br>Hoặc liên hệ Hotline 0909 900 000</div>
+		<div>kết nối với chúng tôi, cập nhật thêm  sản phẩm mới </div>
+	</div>
+</div>
+
+<app-linename [dataApp]="otherProducts"></app-linename>
+<div class="showOtherProducts">
+  <app-product-brief [dataApp]="numproduct" class ="product-brief"></app-product-brief>
+</div>
+<div class="moreProductsButton">
+	<app-button1 [dataApp]="moreProducts" onclick="location.href='/shop'" ></app-button1>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,89 @@
+.container_contact{
+	position: relative;
+	background-color: #5A8963;
+}
+
+.contact{
+	width: 70%;
+	position: absolute;
+	top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #F9F6F2;
+  opacity:0.9;
+  color: #5A8963;
+  font-family: "Montserrat-ExtraLight";
+  font-size: 22px;
+}
+
+.form{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.namephone{
+	display: flex;
+}
+
+.name{
+	width: 48%;
+	margin-right: 2%;
+	margin-top: 50px;
+}
+
+.phone{
+	width: 48%;
+	margin-left: 2%;
+	margin-top: 50px;
+}
+
+.name_field{
+	width: 100%;
+	height: 2.5vw;
+	font-size: 16px;
+	font-family: "Montserrat-Medium";
+	margin-top: 5px;
+}
+
+.phone_field{
+	width: 100%;
+	height: 2.5vw;
+	font-size: 16px;
+	font-family: "Montserrat-Medium";
+	margin-top: 5px;
+}
+
+.email{
+	margin-top: 5px;
+}
+
+.email_field{
+	width:100%;
+	height: 2.5vw;
+	font-size: 16px;
+	font-family: "Montserrat-Medium";
+	margin-top: 5px;
+}
+
+.message{
+	margin-top: 5px;
+}
+
+.message_field{
+	width:100%;
+	margin-top: 5px;
+	height: 9vw;
+	font-size: 16px;
+	font-family: "Montserrat-Medium";
+	resize: none;
+}
+
+.button{
+	width: 190px;
+	position: relative;
+	left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1.5vw;
+  margin-bottom: 2.5vw;
+}
+

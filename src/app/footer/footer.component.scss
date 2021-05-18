@@ -1,0 +1,99 @@
+.container{
+	height: 280px;
+}
+
+.info{
+	width: 100%;
+	height: 232px;
+	background-color: #5A8963;
+	display: flex;
+	justify-content: space-between;
+	min-width: 1080px;
+}
+
+.sns{
+	height: 70px;
+	position: relative;
+	width: 220px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.sns_label{
+	font-family: "Montserrat-ExtraLight";
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+
+.sns_icon{
+	height: 28px;
+	text-align: center;
+	margin: 10px;
+}
+
+.base{}
+
+.facebook{
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+.instagram{}
+
+.address{
+	position:relative;
+	height: 90px;
+	width: 32vw;
+	font-family: "Montserrat-ExtraLight";
+	font-size: 18px;
+	color: white;
+	line-height: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 15vw;
+}
+
+.subcribe{
+	position:relative;
+	height: 70px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-right: 15vw;
+}
+
+.subcribe_field{
+	height: 25px;
+	width: 250px;
+	background: transparent;
+	border: none;
+  border-bottom: solid 1px white;
+  padding: 0px;
+  outline: none;
+  color: white;
+}
+
+.subcribe_button{
+	height: 45px;
+	width: 250px;
+	text-align: left;
+	background: transparent;
+	border: none;
+	font-family: "Montserrat-ExtraLight";
+	color: #CED1D7;
+	font-weight: bolder; 
+}
+
+::placeholder {
+  color: white;
+}
+
+.sign{
+	height: 48px;
+	background-color: #F9F6F2;
+	font-family: "Young";
+	font-size: 16px;
+	text-align: center;
+	line-height: 48px;
+	color: #707070;
+}

@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'webeco';
+
+export class AppComponent{
+	onActivate(event:any) {
+    window.scroll(0,0);
+	}
 }

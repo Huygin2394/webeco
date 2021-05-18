@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family: "Young";
+    src: local("Young"), url(assets/font/Young.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "Montserrat-ExtraLight";
+    src: local("Montserrat-ExtraLight"), url(assets/font/Montserrat-ExtraLight.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "Montserrat-Medium";
+    src: local("Montserrat-Medium"), url(assets/font/Montserrat-Medium.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "JosefinSans-Medium";
+    src: local("JosefinSans-Medium"), url(assets/font/JosefinSans-Medium.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "JosefinSans-Bold";
+    src: local("JosefinSans-Bold"), url(assets/font/JosefinSans-Bold.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "OpenSans-Regular";
+    src: local("OpenSans-Regular"), url(assets/font/OpenSans-Regular.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "OpenSans-SemiBold";
+    src: local("OpenSans-SemiBold"), url(assets/font/OpenSans-SemiBold.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "OpenSans-Bold";
+    src: local("OpenSans-Bold"), url(assets/font/OpenSans-Bold.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "OpenSans-Light";
+    src: local("OpenSans-Light"), url(assets/font/OpenSans-Light.ttf) format("truetype");
+}
+
+body{
+	margin: 0;
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;  /* Chrome and Safari */
+}

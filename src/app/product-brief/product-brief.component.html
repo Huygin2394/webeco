@@ -1,0 +1,12 @@
+<div class = "container_product_brief" *ngFor='let n of counter(dataApp); index as i'>
+	<div class = "product_brief_inside" id="product_brief_inside">
+		<div class = "product_photo_layout" id = "product_photo">
+			<img class="product_photo" src="/assets/bag_photo.jpeg" alt="product_photo">
+		</div>
+		<div class = "product_info" id = "product_info">
+			<div class = "product_name" ><a class= "shop_button" [routerLink]="['/product', products[i].id]">{{products[i].name}}</a></div>
+			<div class = "price">￥ {{products[i].price}}</div>	
+			<div class = "saled_price">￥ 10900</div>
+		</div>
+	</div>
+</div>

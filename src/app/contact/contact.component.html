@@ -1,0 +1,28 @@
+<div class = "container_contact" id="container_contact">
+  <img id="image_contact" src="/assets/banner_photo.png" width="100%" alt="contact_background_photo">
+  <div class = "contact" id = "contact">
+  	<div class = "form" id = "form">
+  	  <div class = "namephone"> 
+  	    <div class = "name">
+  	      <div>Name</div>
+          <input type="text" [formControl]="name" class = "name_field">
+        </div>
+        <div class = "phone">
+          <div>Telephone</div>
+          <input type="text" [formControl]="phone" class = "phone_field">
+	    </div>
+	  </div>
+	  <div class = "email">
+        <div>Email</div>
+        <input type="text" [formControl]="email" class = "email_field">
+      </div>
+      <div class = "message">
+        <div>Message</div>
+        <textarea type="text" [formControl]="content" class = "message_field"></textarea>
+      </div>
+      <div class= "button">
+      	<app-button1 [dataApp]="send" class= "send_button"></app-button1>
+      </div>	
+    </div>
+  </div>
+</div>

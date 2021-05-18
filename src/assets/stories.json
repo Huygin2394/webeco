@@ -1,0 +1,47 @@
+[
+    {	
+    	"id": 1,
+    	"tag": "About Us",
+    	"title": "CÂU CHUYỆN ECO VILLAGE",
+    	"img": "/assets/aboutus.png",
+      "date": "June 14, 2021",
+      "summary": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took ...galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Contrary to popular belief, Lorem Ipsum is not simply random text.",
+      "html_content": "<p>Những ngày tháng 6 năm ấy....</p> <img src='/assets/aboutus.png'>"
+    },
+    {	
+    	"id": 2,
+    	"tag": "Stories",
+    	"title": "HOW TO MEET THAT SPECIAL SOMEONE",
+    	"img": "/assets/aboutus.png",
+      "date": "June 14, 2021",
+      "summary": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took ...galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Contrary to popular belief, Lorem Ipsum is not simply random text.",
+      "html_content": "<p>Những ngày tháng 6 năm ấy....</p> <img src='/assets/aboutus.png'>"
+    },
+    {	
+    	"id": 3,
+      "tag": "Stories",
+      "title": "HOW TO MEET THAT SPECIAL SOMEONE",
+      "img": "/assets/aboutus.png",
+      "date": "June 14, 2021",
+      "summary": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took ...galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Contrary to popular belief, Lorem Ipsum is not simply random text.",
+      "html_content": "<p>Những ngày tháng 6 năm ấy....</p> <img src='/assets/aboutus.png'>"
+    },
+    {	
+    	"id": 4,
+      "tag": "Stories",
+      "title": "HOW TO MEET THAT SPECIAL SOMEONE",
+      "img": "/assets/aboutus.png",
+      "date": "June 14, 2021",
+      "summary": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took ...galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Contrary to popular belief, Lorem Ipsum is not simply random text.",
+      "html_content": "<p>Những ngày tháng 6 năm ấy....</p> <img src='/assets/aboutus.png'>"
+    },
+    {	
+    	"id": 5,
+      "tag": "Stories",
+      "title": "HOW TO MEET THAT SPECIAL SOMEONE",
+      "img": "/assets/aboutus.png",
+      "date": "June 14, 2021",
+      "summary": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took ...galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Contrary to popular belief, Lorem Ipsum is not simply random text.",
+      "html_content": "<p>Những ngày tháng 6 năm ấy....</p> <img src='/assets/aboutus.png'>"
+    },
+  ]

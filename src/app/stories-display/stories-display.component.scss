@@ -1,0 +1,87 @@
+.container{
+	position: relative;
+	width: 70vw;
+	margin-bottom: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.even_story{
+	display: flex;
+	width: 70vw;
+	height: 35vw;
+	margin-bottom: 3vw;
+}
+
+.even_box{
+	width: 35vw;
+	height: 35vw;
+}
+
+.even_text{
+	position: relative;
+	width: 30vw;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.even_photo{
+	width: 35vw;
+	height: 35vw;
+}
+
+.odd_story{
+  display: flex;
+	width: 70vw;
+	height: 35vw;
+}
+
+.odd_photo{
+	width: 35vw;
+	height: 35vw;
+}
+
+.odd_box{
+	width: 35vw;
+	height: 35vw;
+}
+
+.odd_text{
+	position: relative;
+	width: 30vw;
+	margin-left: 5vw;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.tag{
+	color: #5A8963;
+	text-transform: uppercase;
+	font-family: "OpenSans-Bold";
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.title{
+	color: #4A4A4A;
+	text-transform: uppercase;
+	font-family: "JosefinSans-Bold";
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.date{
+	color: #000000;
+	font-family: "OpenSans-Light";
+	font-size: 21px;
+	opacity: 0.5;
+	margin-bottom: 20px;
+}
+
+.summary{
+	color: #000000;
+	font-family: "OpenSans-Regular";
+	font-size: 15px;
+	opacity: 0.7;
+	margin-bottom: 35px;
+}

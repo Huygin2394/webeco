@@ -1,0 +1,28 @@
+.showProduct{
+	width: 70%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	display: inline-flex;
+	justify-content: center;
+}
+
+.productPhoto{
+	flex-basis: 50%;
+}
+
+.productInfo{
+	flex-basis: 50%;
+	padding-left : 50px;
+	padding-right : 50px;
+	background: gray;
+}
+
+.moreProductsButton{
+	width: 190px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 50px;
+	margin-bottom: 50px;
+}

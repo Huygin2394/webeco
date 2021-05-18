@@ -1,0 +1,26 @@
+<div class="container" *ngFor='let story of stories ;let i = index'>
+ 	<div class = "even_story" *ngIf='i < dataApp && i % 2 == 0'>
+		<div class = "even_box">
+			<div class = "even_text">
+				<div class = "tag">{{story.tag}}</div>
+				<div class = "title">{{story.title}}</div>
+				<div class = "date">{{story.date}}</div>
+				<div class = "summary">{{story.summary}}</div>
+				<app-button1 [dataApp]="seestory" class= "story_button" [routerLink]="['/story', story.id]"></app-button1>
+			</div>
+		</div>
+		<img class = "even_photo" src={{story.img}} alt="story_photo">
+	</div>
+	<div class = "odd_story" *ngIf='i < dataApp && i % 2 == 1'>
+		<img class = "odd_photo" src={{story.img}} alt="story_photo">
+		<div class = "odd_box">
+			<div class = "odd_text">
+				<div class = "tag">{{story.tag}}</div>
+				<div class = "title">{{story.title}}</div>
+				<div class = "date">{{story.date}}</div>
+				<div class = "summary">{{story.summary}}</div>
+				<app-button1 [dataApp]="seestory" class= "story_button" [routerLink]="['/story', story.id]"></app-button1>
+			</div>
+		</div>
+	</div>
+</div>
