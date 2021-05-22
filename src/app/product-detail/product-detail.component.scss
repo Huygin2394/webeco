@@ -15,7 +15,6 @@
 	flex-basis: 50%;
 	padding-left : 50px;
 	padding-right : 50px;
-	background: gray;
 }
 
 .moreProductsButton{
@@ -25,4 +24,148 @@
 	transform: translateX(-50%);
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+.buyProduct{
+  text-align: center;
+  padding-top:5%;
+}
+
+.productName{
+  font: JosefinSans-Medium;
+  font-size: 40px;
+  color: #5A8963;
+}
+
+.productCollection{
+  font: JosefinSans-Medium;
+  font-size: 25px;
+  padding: 1%;
+  font-style: italic;
+}
+
+.productPrice{
+  font: JosefinSans-Medium;
+  font-size: 30px;
+  color: #B98757;
+}
+
+.productSummary{
+  font: Montserrat-Medium;
+  font-size: 18px;
+  padding-top: 5%;
+}
+
+.productSummaryLabel{
+  font-weight: bold; 
+}
+
+.productDetail{
+  font: Montserrat-Medium;
+  font-size: 18px;
+  padding-top: 5%;
+}
+
+.productDetailLabel{
+  font-weight: bold; 
+}
+
+.howToBuy{
+  font: Montserrat-Medium;
+  font-size: 18px;
+  padding-top: 5%;
+  font-weight: bold; 
+}
+
+.howToBuyContent{
+  font: Montserrat-Medium;
+  font-size: 18px;
+}
+
+// Slide
+
+* {
+  box-sizing: border-box;
+}
+
+.productPhoto {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #5F5858;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #D9F8DF;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row{
+	padding-top: 2%;
+	width: 80%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }

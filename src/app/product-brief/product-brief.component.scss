@@ -1,3 +1,23 @@
+$defaultDuration: .3s;
+$primaryColour: #ececec;
+$secondaryColour: #666;
+$shadowColour: green;
+
+@mixin hideTapHighlightColor() {
+  //Prevent highlight colour when element is tapped
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+@mixin hardwareAccel() {
+  //Improve performance on mobile/tablet devices
+  transform: translateZ(0);
+}
+
+@mixin improveAntiAlias() {
+  //Improve aliasing on mobile/tablet devices
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
 :host{
 	width: 70%;
 	position: relative;
@@ -11,20 +31,30 @@
 .product_brief_inside{
 	width: 190px;
 	margin : 5px;
+
+	&:hover {
+		background: #D9F8DF;
+	}
 }
 
-.product_photo{
+.product_photo {
 	width: 190px;
+  display: inline-block;
+  transition-duration: $defaultDuration;
+  transition-property: box-shadow;
+
+  @include hideTapHighlightColor();
+  @include hardwareAccel();
+  @include improveAntiAlias();
+
+  &:hover {
+    box-shadow: 0 0 8px $shadowColour;
+  }
 }
 
 .product_name{
-	font-family: "Montserrat-ExtraLight";
+	font-family: "Montserrat-Light";
 	font_size: 20px;
-}
-
-.product_name a{
-	color: black;
-	text-decoration: none;
 }
 
 .price{
@@ -36,4 +66,10 @@
 .saled_price{
 	color:red;
 	font_size: 16px;	
+}
+
+.product_info{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
 }

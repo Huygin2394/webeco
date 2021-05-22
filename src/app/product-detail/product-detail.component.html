@@ -1,29 +1,56 @@
 <app-linename [dataApp]="products_linename"></app-linename>
 <div class="showProduct">
 	<div class="productPhoto">
-		
+		<div class="mySlides fade">
+			<img src="" id="photo1" style="width:80%">
+		</div>
+		<div class="mySlides fade">
+			<img src="" id="photo2" style="width:80%">
+		</div>
+		<div class="mySlides fade">
+			<img src="" id="photo3" style="width:80%">
+		</div>
+		<div class="mySlides fade">
+			<img src="" id="photo4" style="width:80%">
+		</div>
+		<a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+  		<a class="next" (click)="plusSlides(1)">&#10095;</a>
+  		<div class="row">
+  			<div class="column">
+		      	<img class="demo cursor" src="" id="photo5" style="width:100%" (click)="currentSlide(1)">
+		    </div>
+		    <div class="column">
+		      	<img class="demo cursor" src="" id="photo6" style="width:100%" (click)="currentSlide(2)">
+		    </div>
+		    <div class="column">
+		      	<img class="demo cursor" src="" id="photo7" style="width:100%" (click)="currentSlide(3)">
+		    </div>
+		    <div class="column">
+		      	<img class="demo cursor" src="" id="photo8" style="width:100%" (click)="currentSlide(4)">
+		    </div>
+  		</div>
+  		<div class="buyProduct">
+  			<app-button1 [dataApp]="buyProduct" (click)='navigateToContact()'></app-button1>
+  		</div>
 	</div>
 	<div class="productInfo">
 		<div class = "productName">{{this.product_detail.name}}</div>
-		<div class = "productName">
-			<div>Bộ sưu tập:</div>
-			<div>{{this.product_detail.name}}</div>
+		<div class = "productCollection">
+			<div>- {{this.product_detail.collection}} -</div>
 		</div>
 		<div class = "productPrice">
-			<div>Giá: </div>
-			<div>{{this.product_detail.price}} VNĐ</div>
+			<div>Giá: ¥{{this.product_detail.price}}</div>
 		</div>
 		<div class = "productSummary">
-			<div>Thông tin sản phẩm:</div>
-			<div>{{this.product_detail.description}}</div>
+			<div class = "productSummaryLabel">Thông tin sản phẩm:</div>
+			<div class = "productSummaryContent">{{this.product_detail.description}}</div>
 		</div>
-		<div class = "productDetailInfo">
-			<div>Thông tin chi tiết:</div>
-			<div [innerHtml]=this.product_detail.detail></div>
+		<div class = "productDetail">
+			<div class = "productDetailLabel">Thông tin chi tiết:</div>
+			<div class = "productDetailContent" [innerHtml]=this.product_detail.detail></div>
 		</div>
-		<div>Cách thức mua hàng</div>
-		<div>Để mua hàng hãy chat với chúng tôi<br>Hoặc liên hệ Hotline 0909 900 000</div>
-		<div>kết nối với chúng tôi, cập nhật thêm  sản phẩm mới </div>
+		<div class = "howToBuy">Cách thức mua hàng</div>
+		<div class = "howToBuyContent">Để mua hàng hãy gửi email cho chúng tôi<br>Hoặc liên hệ Hotline 0909 900 000</div>
 	</div>
 </div>
 
@@ -32,6 +59,6 @@
   <app-product-brief [dataApp]="numproduct" class ="product-brief"></app-product-brief>
 </div>
 <div class="moreProductsButton">
-	<app-button1 [dataApp]="moreProducts" (click)='navigate()' ></app-button1>
+	<app-button1 [dataApp]="moreProducts" (click)='navigateToShop()' ></app-button1>
 </div>
 <app-footer></app-footer>
